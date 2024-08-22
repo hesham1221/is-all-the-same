@@ -1,0 +1,19 @@
+{
+  "name": "is-all-the-same",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run:optimal": "ts-node optimal.ts",
+    "run:brute-force": "ts-node brute-force.ts",
+    "start": "ts-node brute-force.ts && ts-node optimal.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
